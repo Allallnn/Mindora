@@ -435,6 +435,16 @@ p {
   margin-bottom: 2rem;
 }
 
+.section-2 .text-div  {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.section-2 .text-div p {
+  width: 30rem;
+}
 
   .section-2 .img-div,
   .section-2 .text-div {
@@ -447,8 +457,8 @@ p {
   }
 
   .ul-div ul {
-    max-width: 500px;
-    margin: 30px auto 0;
+    max-width: 100%;
+    margin: 0 auto ;
   }
 
   .section-3 .d-flex {
@@ -456,8 +466,14 @@ p {
     justify-content: center;
   }
 
+.section-3 .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
   .section-3 .card {
-    width: 320px;
+    width: 300px;
   }
 
   .resources-grid {
